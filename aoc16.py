@@ -75,5 +75,9 @@ for selfPath in selfPaths:
             exclusion.append((selfPath, elephantPath))
             print(len(exclusion))
 
+<<<<<<< HEAD
 print(max(
     totalFlow(G, list(selfPath), 26) + totalFlow(G, list(elephantPath), 26) for selfPath, elephantPath in exclusion))
+=======
+print(max(totalFlow(G, list(selfPath), 26) + totalFlow(G, list(elephantPath), 26) for selfPath, elephantPath in exclusion))
+>>>>>>> 5cb5d696050000f143756d95f59cb15ee28a3ab1
